@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routines - English Learning Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Daily Routines Dialogue</h1>
+            <p class="subtitle">Listen, Learn, and Practice Simple Present Tense</p>
+        </header>
+
+        <!-- Dialogue Section -->
+        <section id="dialogue-section" class="section">
+            <h2>🎧 Listen to the Dialogue</h2>
+            <div class="dialogue-container">
+                <div class="teacher-intro">
+                    <div class="speaker">👩‍🏫 Teacher</div>
+                    <div class="dialogue-text">Good morning, class! Today we'll talk about daily routines. Let's listen to Anna and James.</div>
+                    <button class="audio-btn" data-speaker="teacher" data-text="Good morning, class! Today we'll talk about daily routines. Let's listen to Anna and James.">🔊 Play</button>
+                </div>
+
+                <div class="dialogue-exchange">
+                    <div class="anna-line">
+                        <div class="speaker">👩 Anna</div>
+                        <div class="dialogue-text">Hi James! What time do you usually wake up?</div>
+                        <button class="audio-btn" data-speaker="anna" data-text="Hi James! What time do you usually wake up?">🔊 Play</button>
+                    </div>
+
+                    <div class="james-line">
+                        <div class="speaker">👨 James</div>
+                        <div class="dialogue-text">I usually wake up at <strong>6:30 in the morning</strong>. What about you?</div>
+                        <button class="audio-btn" data-speaker="james" data-text="I usually wake up at six thirty in the morning. What about you?">🔊 Play</button>
+                    </div>
+
+                    <div class="anna-line">
+                        <div class="speaker">👩 Anna</div>
+                        <div class="dialogue-text">I wake up at <strong>7 o'clock</strong>. Do you eat breakfast every day?</div>
+                        <button class="audio-btn" data-speaker="anna" data-text="I wake up at seven o'clock. Do you eat breakfast every day?">🔊 Play</button>
+                    </div>
+
+                    <div class="james-line">
+                        <div class="speaker">👨 James</div>
+                        <div class="dialogue-text">Yes, I do. I usually eat eggs and bread. Do you eat breakfast?</div>
+                        <button class="audio-btn" data-speaker="james" data-text="Yes, I do. I usually eat eggs and bread. Do you eat breakfast?">🔊 Play</button>
+                    </div>
+
+                    <div class="anna-line">
+                        <div class="speaker">👩 Anna</div>
+                        <div class="dialogue-text">Sometimes. I usually drink tea, but I don't always eat food in the morning.</div>
+                        <button class="audio-btn" data-speaker="anna" data-text="Sometimes. I usually drink tea, but I don't always eat food in the morning.">🔊 Play</button>
+                    </div>
+
+                    <div class="james-line">
+                        <div class="speaker">👨 James</div>
+                        <div class="dialogue-text">After breakfast, I go to school. Do you walk or take the bus?</div>
+                        <button class="audio-btn" data-speaker="james" data-text="After breakfast, I go to school. Do you walk or take the bus?">🔊 Play</button>
+                    </div>
+
+                    <div class="anna-line">
+                        <div class="speaker">👩 Anna</div>
+                        <div class="dialogue-text">I usually take the bus. What about you?</div>
+                        <button class="audio-btn" data-speaker="anna" data-text="I usually take the bus. What about you?">🔊 Play</button>
+                    </div>
+
+                    <div class="james-line">
+                        <div class="speaker">👨 James</div>
+                        <div class="dialogue-text">I walk, because I live near the school.</div>
+                        <button class="audio-btn" data-speaker="james" data-text="I walk, because I live near the school.">🔊 Play</button>
+                    </div>
+
+                    <div class="anna-line">
+                        <div class="speaker">👩 Anna</div>
+                        <div class="dialogue-text">What do you do after school?</div>
+                        <button class="audio-btn" data-speaker="anna" data-text="What do you do after school?">🔊 Play</button>
+                    </div>
+
+                    <div class="james-line">
+                        <div class="speaker">👨 James</div>
+                        <div class="dialogue-text">I do my homework and then I play football. Do you play sports?</div>
+                        <button class="audio-btn" data-speaker="james" data-text="I do my homework and then I play football. Do you play sports?">🔊 Play</button>
+                    </div>
+
+                    <div class="anna-line">
+                        <div class="speaker">👩 Anna</div>
+                        <div class="dialogue-text">No, I don't. I like reading books.</div>
+                        <button class="audio-btn" data-speaker="anna" data-text="No, I don't. I like reading books.">🔊 Play</button>
+                    </div>
+
+                    <div class="james-line">
+                        <div class="speaker">👨 James</div>
+                        <div class="dialogue-text">What time do you go to bed?</div>
+                        <button class="audio-btn" data-speaker="james" data-text="What time do you go to bed?">🔊 Play</button>
+                    </div>
+
+                    <div class="anna-line">
+                        <div class="speaker">👩 Anna</div>
+                        <div class="dialogue-text">I go to bed at <strong>10 o'clock</strong>.</div>
+                        <button class="audio-btn" data-speaker="anna" data-text="I go to bed at ten o'clock.">🔊 Play</button>
+                    </div>
+
+                    <div class="james-line">
+                        <div class="speaker">👨 James</div>
+                        <div class="dialogue-text">I go to bed a little later, around <strong>11 o'clock</strong>.</div>
+                        <button class="audio-btn" data-speaker="james" data-text="I go to bed a little later, around eleven o'clock.">🔊 Play</button>
+                    </div>
+                </div>
+
+                <div class="play-all-container">
+                    <button id="play-all-btn" class="play-all-btn">🎵 Play Full Dialogue</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz-section" class="section">
+            <h2>📝 Comprehension Quiz</h2>
+            <div id="quiz-container">
+                <!-- Quiz questions will be populated by JavaScript -->
+            </div>
+            <div id="quiz-result" class="quiz-result hidden"></div>
+            <button id="submit-quiz" class="submit-btn">Submit Quiz</button>
+        </section>
+
+        <!-- Speaking Practice Section -->
+        <section id="speaking-section" class="section">
+            <h2>🗣️ Speaking Practice - Simple Present Tense</h2>
+            <div class="speaking-instructions">
+                <p>Practice answering these questions about your daily routine. Use simple present tense!</p>
+            </div>
+            <div id="speaking-questions">
+                <!-- Speaking questions will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Grammar Tips -->
+        <section id="grammar-section" class="section">
+            <h2>📖 Grammar Tips - Simple Present Tense</h2>
+            <div class="grammar-tips">
+                <div class="tip-box">
+                    <h3>Positive Form:</h3>
+                    <p>I/You/We/They + base verb<br>He/She/It + verb + s/es</p>
+                    <div class="examples">
+                        <strong>Examples:</strong><br>
+                        • I wake up at 7 o'clock.<br>
+                        • She eats breakfast every day.
+                    </div>
+                </div>
+                <div class="tip-box">
+                    <h3>Negative Form:</h3>
+                    <p>I/You/We/They + don't + base verb<br>He/She/It + doesn't + base verb</p>
+                    <div class="examples">
+                        <strong>Examples:</strong><br>
+                        • I don't eat breakfast.<br>
+                        • He doesn't play sports.
+                    </div>
+                </div>
+                <div class="tip-box">
+                    <h3>Question Form:</h3>
+                    <p>Do + I/you/we/they + base verb?<br>Does + he/she/it + base verb?</p>
+                    <div class="examples">
+                        <strong>Examples:</strong><br>
+                        • Do you walk to school?<br>
+                        • Does she like reading?
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
